@@ -1,0 +1,66 @@
+.aboutus{
+    padding: 30px 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.aboutus_container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.abt_note_head{
+    font-size: 17px;
+    background:  rgb(248, 244, 233);
+    border: 1px solid rgb(254, 196, 78);
+    padding: 10px 10px;
+    width: 15%;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.abt_heading{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.abt_note{
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.abt_data{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.abt_box{
+    padding: 20px 30px;
+}
+
+.abt_box_head{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.abt_box_note{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.abt_icon{
+    font-size: 20px;
+
+}
+
+.abt_left{
+    width: 55%;
+}
+
+.about_img img{
+    border-radius: 50px;
+}

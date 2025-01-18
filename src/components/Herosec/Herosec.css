@@ -1,0 +1,59 @@
+.herosec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.hero_con{
+    background: rgb(248, 244, 233);
+}
+.herosec_dets{
+    width: 900px;
+    padding: 40px 50px;
+}
+
+.hero_heading{
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero_note{
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.hero_start_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background: rgb(254, 196, 78);
+    padding: 8px 10px;
+    border-radius: 120px;
+    width: 17%;
+    margin: auto;
+}
+
+.hero_start_button button{
+    background: none;
+    outline: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.hero_paw_icon{
+    rotate: 30deg;
+    background: #fff;
+    padding: 6px 6px;
+    border-radius: 50%;
+}
+
+img{
+    width: 100%;
+}
+
