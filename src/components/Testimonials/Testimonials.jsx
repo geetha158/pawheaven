@@ -54,10 +54,10 @@ const Testimonials = () => {
                 </div>
                
                 {testi_data.map((data)=>{
-                    return <div>
+                    return <div className='testi_box_con'>
 
                         <div className='testi_box'>
-                             <img className='testi_img' src={data.image}></img>
+                             <img className='testi_img' alt='' src={data.image}></img>
                             <div>
                                 <h3 className='testi_name'>{data.name}</h3>
                                 <p className='testi_role'>{data.role}</p>
@@ -74,7 +74,7 @@ const Testimonials = () => {
             <div className='testi_dets_head'>
 
                     {testi_dets.map((data)=>{
-                             return <div>
+                             return <div className='testi_count_box'>
                                        <p className='testi_Count'> +{data.count}</p>
                                          <p>{data.testi_note}</p>
                                     </div>

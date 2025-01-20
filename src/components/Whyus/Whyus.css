@@ -1,0 +1,64 @@
+.whyus_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.whyus{
+    margin-top: 100px;
+}
+
+.whyus_head_note{
+    background: rgb(248, 244, 233);
+    border: 1px solid rgb(254, 196, 78);
+    border-radius: 10px;
+    width: 12%;
+    margin: auto;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.whyus_heading{
+
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.whyus_note{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.why_bottom_con{
+    padding: 30px 50px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.why_buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    
+}
+
+.why_buttons button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 19px;
+
+}

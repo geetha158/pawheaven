@@ -55,12 +55,35 @@
     align-items: center;
     gap: 15px;
     margin-bottom: 25px;
+    
 }
 
 .testi_img{
     width: 70px;
     height: 70px;
     border-radius: 15px;
+    
+}
+
+.testi_box_con{
+
+    animation: test_small_img 3s linear ;
+    animation-timeline:view();
+    animation-range:entry 0% cover 40%;
+
+}
+
+@keyframes test_small_img{
+    from{
+        opacity:0;
+
+        transform:translateX(150px)
+
+    }
+    to{
+        opacity:1;
+        transform:translateX(0px)
+    }
 }
 
 .testi_name{
@@ -112,4 +135,23 @@
 .testi_Count{
     font-size: 40px;
     font-weight: 600;
+}
+
+
+.testi_count_box{
+    animation: appear_count_box 5s linear ;
+    animation-timeline:view();
+    animation-range:entry 0% cover 40%;
+}
+
+
+@keyframes appear_count_box{
+    from{
+        opacity:0;
+        transform:translateY(150px)
+    }
+    to{
+        opacity:1;
+        transform:translateY(0px)
+    }
 }
