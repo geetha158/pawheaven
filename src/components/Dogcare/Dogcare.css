@@ -1,0 +1,80 @@
+.dogcare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(53, 53, 53);
+    margin-top: 50px;
+    
+   
+   
+}
+
+.dogcare_Container{
+    padding: 50px 60px;
+    /* position: absolute; */
+   width: 700px;
+   height: 300px;
+   align-items: center;
+   text-align: center;
+}
+
+.dog_img{
+    border-radius: 30px;
+}
+
+.dog_box{
+    background: rgb(131, 131, 131);
+    width: 40%;
+    padding: 30px 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 670px;
+    bottom: 120px;
+}
+
+.dog_box_note_head{
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid rgb(254, 196, 78);
+    width: 25%;
+    border-radius: 10px;
+}
+
+.dog_box_heading{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.dog_box_note{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.dog_btn{
+    padding: 10px 20px;
+    background:  rgb(254, 196, 78);
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.dog_btn_icon{
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 50%;
+    rotate: 30deg;
+    font-size: 18px;
+    margin-left: -7px;
+}
+
+.btn_note{
+    font-size: 16px;
+}

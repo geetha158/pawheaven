@@ -1,0 +1,181 @@
+.pricing{
+    padding: 30px 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.pricing_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pricing_main_note_head{
+    background:  rgb(248, 244, 233);
+    border: 1px solid rgb(254, 196, 78);
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 12%;
+    margin: auto;
+}
+
+.pricing_main_heading{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.pricing_main_note{
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.pricing_main_btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pricing_main_btn button{
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    border: 1px solid rgb(254, 196, 78);
+    border-radius: 25px;
+   
+}
+
+.pricing_plan{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pricing_plan_theme{
+    background:  rgb(248, 244, 233);
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 3px rgba(167, 167, 167, 0.8);
+}
+
+.pricing_icon{
+    font-size: 22px;
+    color: rgb(254, 196, 78);
+}
+
+.pricing_plan_heading{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.pricing_plan_note{
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.pricing_price{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pricing_price span{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.btn_pricing{
+    display: flex;
+    gap: 10px;
+    background: none;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 12px 17px;
+    border-radius: 30px;
+    width: 60%;
+    margin-bottom: 15px;
+    border: 1px solid rgb(254, 196, 78);
+    font-size: 18px;
+}
+
+.plan_icon{
+    background: #fff;
+    padding: 10px 13px;
+    border-radius: 50%;
+    margin-left: -25px;
+}
+
+.plan_dets{
+    display: flex;
+    margin:auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.angle_icon{
+    padding: 1.2px 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.pricing_sides{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pricing_side{
+    background:  rgb(248, 244, 233);
+    padding: 30px 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 4px 3px 3px rgba(167, 167, 167, 0.8);
+    
+}
+
+.pricing_side_note{
+    font-size: 16px;
+    margin-top: 10px;
+   
+}
+
+.pricing_paw_icon{
+    font-size: 22px;
+    color: rgb(254, 196, 78);
+}
+
+.pricing_side .btn_pricing{
+    margin-top: 20px;
+    background: rgb(254, 196, 78);;
+}
+
+button{
+    cursor: pointer;
+}
+
+.pricing_main_btn button.bradd{
+    background: rgb(254, 196, 78);
+}
+
+.nobr{
+    background:none 
+}
