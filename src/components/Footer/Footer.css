@@ -1,0 +1,101 @@
+.footer{
+    background: rgb(248, 244, 233);
+    margin-top: 80px;
+    
+}
+
+.footer_container{
+    padding: 30px 50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_down{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.flex_col a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.footer_head{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.heading_foot{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.icon_flx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.foot_paw_icon{
+    color:  rgb(254, 196, 78);;
+    font-size: 30px;
+    rotate: 30deg;
+}
+
+.footer_note{
+    font-size: 20px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ftr_btn{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    align-items: center;
+    background:  rgb(254, 196, 78);
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+.foot_bone_icon{
+    font-size: 16px;
+    rotate: -30deg;
+    padding: 10px 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.ftr_btn p{
+    font-size: 16px;
+}
+
+.list_heading{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer_down{
+    border-bottom: 1px solid rgb(199, 199, 199);
+}

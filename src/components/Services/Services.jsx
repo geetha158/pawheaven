@@ -47,10 +47,10 @@ const Services = () => {
             <h3 className='serv_heading'>Our Range of Services: Caring for Pets, One Paw at a Time</h3>
             <div className='serv_side'>
                 <p className='serv_side_note'>At PawHaven, we offer a diverse range of services designed to meet every need of your beloved pets.</p>
-                <div className='serv_more'>
+                {/* <div className='serv_more'>
                     <FontAwesomeIcon className='serv_plus_icon' icon={faPlus} />
                     <button>More Services</button>
-                </div>
+                </div> */}
             </div>
 
             <div className='serv_data_container'>

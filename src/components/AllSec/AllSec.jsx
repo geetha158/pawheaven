@@ -7,6 +7,8 @@ import Bounce from '../Bounce/Bounce'
 import Whyus from '../Whyus/Whyus'
 import Dogcare from '../Dogcare/Dogcare'
 import Pricing from '../Pricing/Pricing'
+import Contact from '../Contact/Contact'
+import Faq from '../Faq/Faq'
 
 
 const AllSec = () => {
@@ -21,6 +23,8 @@ const AllSec = () => {
         <Whyus />
         <Dogcare />
         <Pricing />
+        <Contact />
+        <Faq />
        
        
     </div>

@@ -1,0 +1,111 @@
+.contact{
+    padding: 30px 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.contact_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    /* margin: auto;
+    text-align: center; */
+    margin-bottom: 30px;
+}
+
+.contact_heading{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contact_note{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact_dets{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.contact_det{
+    background: rgb(248, 244, 233);
+    padding:20px 30px;
+    border-radius: 15px;
+}
+
+.contact_icon{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact_det p{
+    font-size: 16px;
+}
+
+.contact_left img{
+    border-radius: 20px;
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+.form_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form_div input{
+    padding: 10px 15px;
+    border: 1px solid rgb(254, 196, 78);
+    outline: none;
+    border-radius: 20px;
+}
+
+.form_div select{
+    padding: 10px 15px;
+    border: 1px solid rgb(254, 196, 78);
+    outline: none;
+    border-radius: 20px;
+}
+
+.form_div textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px 15px;
+    border: 1px solid rgb(254, 196, 78);
+    outline: none;
+    border-radius: 20px;
+
+}
+
+.contact_btn{
+    background: rgb(254, 196, 78);
+    padding: 10px 15px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.form_div label{
+    font-size: 20px;
+}
+
+.contact_left, .contact_right{
+    padding: 10px 20px;
+}
+
+.contact_right{
+    box-shadow: -1px 1px 20px rgba(167, 167, 167, 0.8);
+    border-radius: 20px;
+}

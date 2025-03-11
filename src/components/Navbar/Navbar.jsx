@@ -3,6 +3,7 @@ import './Navbar.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faPaw } from '@fortawesome/free-solid-svg-icons/faPaw'
 import { faHouse,faUser,faClipboardList,faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -15,23 +16,25 @@ const Navbar = () => {
             <div className='navbar_navlinks'>
                 <div className='navbar_navlink'>
                 <FontAwesomeIcon className='nav_link_icon' icon={faHouse} />
-                <h4>Home</h4>
+                <Link to='/'><h4>Home</h4></Link>
                 </div>
                 <div className='navbar_navlink'>
                 <FontAwesomeIcon className='nav_link_icon' icon={faUser} />
-                <h4>About Us</h4>
+                <Link to='/about'><h4>About Us</h4></Link>
                 </div>
                 <div className='navbar_navlink'>
                 <FontAwesomeIcon className='nav_link_icon' icon={faClipboardList} />
-                <h4>Our Pricing</h4>
+                <Link to='/pricing'><h4>Our Pricing</h4></Link>
                 </div>
-                <div className='navbar_navlink'> <h4>More</h4>
-                <FontAwesomeIcon className='nav_link_icon' icon={faAngleDown} />
+                <div className='navbar_navlink'>
+                <FontAwesomeIcon className='nav_link_icon' icon={faClipboardList} />
+                <Link to='/services'><h4>Servo Blog</h4></Link>
                 </div>
             </div>
             <div className='navbar_booking_side'>
+              
             <FontAwesomeIcon className='navbar_paw_icon' icon={faPaw} />
-            <button>Book Appointment</button>
+            <button className='book_btn'><Link to='/contact'><p className='book'>Book Appointment</p></Link></button>
             </div>
         </div>
     </div>
