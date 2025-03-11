@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {  useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import './Blogpage.css'
-import Blog from '../Blog/Blog'
+
 
 const Blogpage = () => {
 
-    const [id,setId]=useState(0)
+    
 
     const param=useParams();
 

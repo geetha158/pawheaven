@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faPlus,faBath,faHospital,faTooth,faDog } from '@fortawesome/free-solid-svg-icons'
+import { faBath,faHospital,faTooth,faDog } from '@fortawesome/free-solid-svg-icons'
 
 import serv_img1 from '../../assests/images/serv_img1.png'
 import serv_img2 from '../../assests/images/serv_img2.png'

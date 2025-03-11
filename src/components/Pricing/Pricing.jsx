@@ -30,21 +30,20 @@ const Pricing = () => {
         const [basic,setbasic]=useState(40);
         const[comp,setComp]=useState(90)
 
-        const small=[50,90];
-        const large=[80,120]
+        
 
         function setprice(e){
             console.log(e.target.innerHTML);
 
             let comp_val=e.target.innerHTML;
 
-            if(comp_val=='Small Pets'){
+            if(comp_val==='Small Pets'){
                 setsbr(true)
                 setlbr(false)
                 setComp(90)
                 setbasic(40)
             }
-            if(comp_val=='Large Pets'){
+            if(comp_val==='Large Pets'){
                 setsbr(false)
                 setlbr(true)
                 setbasic(80)

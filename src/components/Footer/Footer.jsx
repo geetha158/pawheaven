@@ -29,10 +29,10 @@ const Footer = () => {
               <h3 className='list_heading'>Follow Us</h3>
 
               <div className='flex_col'>
-                <a href="" target='_blank'>Instagram</a>
-                <a href="" target='_blank'>Whatsapp</a>
-                <a href="https://www.facebook.com/geethasree.geethu.15/" target='_blank'>Facebook</a>
-                <a href="https://www.linkedin.com/in/geethasree/" target='_blank'>LinkedIn</a>
+                <a href="https://www.linkedin.com/in/geethasree/" target='_blank' rel="noreferrer">Instagram</a>
+                <a href="https://www.linkedin.com/in/geethasree/" target='_blank' rel="noreferrer">Whatsapp</a>
+                <a href="https://www.facebook.com/geethasree.geethu.15/" target='_blank' rel="noreferrer">Facebook</a>
+                <a href="https://www.linkedin.com/in/geethasree/" target='_blank' rel="noreferrer">LinkedIn</a>
               </div>
 
             </div>

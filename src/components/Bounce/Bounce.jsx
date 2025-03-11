@@ -14,8 +14,8 @@ const Bounce = () => {
     <div className='bounce'>
         <div className='bounce_container'>
             <div className='bounce_images'>
-                <img className='bounce_img_1' src={bounce_img1} />
-                <img className='bounce_img_2' src={bounce_img2} />
+                <img className='bounce_img_1' alt='' src={bounce_img1} />
+                <img className='bounce_img_2' alt='' src={bounce_img2} />
             </div>
             <div className='review_coll'>
                 <div className='review_coll_star'>

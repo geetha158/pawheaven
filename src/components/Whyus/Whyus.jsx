@@ -15,7 +15,7 @@ const Whyus = () => {
 
 
 
-        if(btnval=='Experienced and Caring Team'){
+        if(btnval==='Experienced and Caring Team'){
             setclr2(false)
             setclr3(false)
             setclr1(true)
@@ -23,14 +23,14 @@ const Whyus = () => {
         } 
 
 
-        if(btnval=='Comphrensive Services'){
+        if(btnval==='Comphrensive Services'){
             setclr2(true)
             setclr3(false)
             setclr1(false)
             setId(1)
         } 
         
-        if(btnval=='Trusted by Pet Owner'){
+        if(btnval==='Trusted by Pet Owner'){
             setclr2(false)
             setclr3(true)
             setclr1(false)
