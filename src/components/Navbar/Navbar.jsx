@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faPaw } from '@fortawesome/free-solid-svg-icons/faPaw'
-import { faHouse,faUser,faClipboardList,faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faHouse,faUser,faClipboardList } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
