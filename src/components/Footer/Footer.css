@@ -99,3 +99,8 @@
 .footer_down{
     border-bottom: 1px solid rgb(199, 199, 199);
 }
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}

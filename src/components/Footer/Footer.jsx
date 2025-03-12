@@ -46,6 +46,7 @@ const Footer = () => {
              
             </div>
           </div>
+          <div className='copyright'>Created By Geethasree 😊</div>
         </div>
       </div>
     </div>

@@ -9,6 +9,7 @@ import Pricing from './components/Pricing/Pricing';
 import Contactus from './components/ContactUs/Contactus';
 import ServoBlog from './components/Servoblog/ServoBlog';
 import Blogpage from './components/Blogpage/Blogpage';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
 
 <Router>
+<ScrollToTop />
 
       <Navbar />
       
