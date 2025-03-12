@@ -33,6 +33,7 @@
     position: relative;
     top: -60px;
     left: 20px;
+    cursor: pointer;
 }
 
 .blog_img{

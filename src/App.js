@@ -10,6 +10,7 @@ import Contactus from './components/ContactUs/Contactus';
 import ServoBlog from './components/Servoblog/ServoBlog';
 import Blogpage from './components/Blogpage/Blogpage';
 
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       
       <Routes>
+        
         <Route path='/' element={<AllSec />} />
         <Route path='/about' element={<About />} />
         <Route path='/pricing' element={<Pricing />} />

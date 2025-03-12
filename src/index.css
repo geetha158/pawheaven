@@ -8,6 +8,23 @@
 }
 
 
+body {
+  animation: fadeIn 3s ease-out; /* 3 seconds fade-in duration */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    opacity: 1; /* End fully opaque */
+  }
+}
+
+button{
+  cursor: pointer;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
