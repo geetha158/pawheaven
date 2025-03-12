@@ -3,6 +3,7 @@ import './Pricing.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faCrown,faBoltLightning,faAngleRight,faPaw } from '@fortawesome/free-solid-svg-icons'
 import { faClipboard } from '@fortawesome/free-regular-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Pricing = () => {
     const plan_data_basic=['Grooming Session (1x per month)',
@@ -98,7 +99,8 @@ const Pricing = () => {
                             <FontAwesomeIcon className='pricing_paw_icon' icon={faPaw} />
                             <h2 className='pricing_plan_heading'>Custom Plan</h2>
                             <p className='pricing_side_note'>At PawHaven , we understand that every pet is unique, and so are their needs. With our Custom Plan, you can tailor a package that fits your pet’s specific requirements. From grooming to specialized health services, you choose what works best for your furry friend.</p>
-                            <button className='btn_pricing'><FontAwesomeIcon className='plan_icon' icon={faClipboard} /><p>Get Started</p></button>
+                            <button className='btn_pricing'><FontAwesomeIcon className='plan_icon' icon={faClipboard} /><Link to='/contact'>
+                            Get Started</Link><p></p></button>
                         </div>
                     </div>
                 </div>
