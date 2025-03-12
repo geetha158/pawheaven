@@ -29,8 +29,8 @@ const Footer = () => {
               <h3 className='list_heading'>Follow Us</h3>
 
               <div className='flex_col'>
-                <a href="https://www.linkedin.com/in/geethasree/" target='_blank' rel="noreferrer">Instagram</a>
-                <a href="https://www.linkedin.com/in/geethasree/" target='_blank' rel="noreferrer">Whatsapp</a>
+                <a href="https://www.instagram.com/itsgeetha_15/?next=%2F" target='_blank' rel="noreferrer">Instagram</a>
+                <a href="https://github.com/geetha158" target='_blank' rel="noreferrer">GitHub</a>
                 <a href="https://www.facebook.com/geethasree.geethu.15/" target='_blank' rel="noreferrer">Facebook</a>
                 <a href="https://www.linkedin.com/in/geethasree/" target='_blank' rel="noreferrer">LinkedIn</a>
               </div>
