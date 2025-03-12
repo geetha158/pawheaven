@@ -35,15 +35,6 @@
     margin-left: 10px;
 }
 
-.bounce_img_1{
-    position: absolute;
-    z-index: 1;
-}
-.bounce_img_2{
-    position: relative;
-    right: -1180px;
-}
-
 .bounce_img_1 , .bounce_img_2{
     animation: gelatine 2s infinite;
 }
@@ -71,4 +62,33 @@
 .review_coll_images{
     width: 80px;
     margin-top: 15px;
+}
+
+@media (max-width:710px) {
+    .bounce_container{
+        margin-inline: auto;
+    }
+    .bounce_img_2{
+        display: none;
+    }
+    .review_coll{
+        left: unset;
+        top: unset;
+    }
+}
+@media (max-width:460px) {
+    .bounce_img_1{
+        width: 100%;
+    }
+    .review_coll_images{
+        width: 100%;
+    }
+    .review_coll{
+        margin-inline: 20px;
+        position: unset;
+        width: 100%;
+        img{
+            width:100%;
+        }
+    }
 }

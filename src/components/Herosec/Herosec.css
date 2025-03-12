@@ -34,7 +34,7 @@
     background: rgb(254, 196, 78);
     padding: 8px 10px;
     border-radius: 120px;
-    width: 17%;
+    width: fit-content;
     margin: auto;
 }
 
@@ -71,5 +71,12 @@
         transform: translateY(0px)
         
         
+    }
+}
+
+@media (max-width: 762px) {
+    .herosec_dets{
+        width: auto;
+        padding: 40px 50px;
     }
 }
