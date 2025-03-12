@@ -35,7 +35,7 @@ const Blog = () => {
             <div className='blog_img'>
 
                 {blog_data.map((data)=>{
-                    return <div>
+                    return <div className='blog_item'>
                     <img className='blog_img_tag' src={data.img} alt="" />
                 <p className='blog_head_note' onClick={onpathpage}>{data.head}</p>
                 <p className='blog_date_note'>{data.date}</p>

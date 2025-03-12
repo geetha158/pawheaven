@@ -86,6 +86,33 @@
     color: #fff;
 }
 
+.navbar_navlink{
+    h4{
+        white-space: nowrap;
+    }
+}
 
+@media (max-width: 1430px){
+    .navbar_navlink{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1270px){
+    .navbar_container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-inline: 0;
+    }
+    .navbar_navlink{
+        flex-direction: row;
+    }
+}
+@media (max-width: 480px){
+    .navbar_navlink{
+        flex-direction: column;
+    }
+}
 
 

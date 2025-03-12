@@ -9,7 +9,7 @@
     background:  rgb(248, 244, 233);
     border: 1px solid rgb(254, 196, 78);
     padding: 10px 10px;
-    width: 12%;
+    width: fit-content;
     border-radius: 40px;
     margin-bottom: 30px;
 }
@@ -90,7 +90,8 @@
 }
 
 .serv_data_img{
-    height: 200px;
+    height: auto;
+    aspect-ratio: 3 / 2;
     width: 100%;
     border-radius: 30px;
     display: block;
@@ -106,4 +107,16 @@
 .img_con{
   overflow: hidden;  
   border-radius: 30px;
+}
+
+@media (max-width:920px) {
+    .services_container{
+        padding-inline: 0;
+    }    
+}
+@media (max-width:790px) {
+    .serv_data_container{
+        display: flex;
+        flex-direction: column;
+    }
 }

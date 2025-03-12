@@ -17,7 +17,7 @@
     border: 1px solid rgb(254, 196, 78);
     padding: 10px 15px;
     border-radius: 15px;
-    width: 12%;
+    width: fit-content;
     margin: auto;
 }
 
@@ -103,9 +103,9 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 12px 17px;
+    padding: 12px 27px;
     border-radius: 30px;
-    width: 60%;
+    width: fit-content;
     margin-bottom: 15px;
     border: 1px solid rgb(254, 196, 78);
     font-size: 18px;
@@ -115,7 +115,7 @@
     background: #fff;
     padding: 10px 13px;
     border-radius: 50%;
-    margin-left: -25px;
+    /* margin-left: 25px; */
 }
 
 .plan_dets{
@@ -178,4 +178,18 @@ button{
 
 .nobr{
     background:none 
+}
+
+@media (max-width:680px) {
+    .pricing_plan{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:520px) {
+    .pricing{
+        padding-inline: 0;
+        width: 85%;
+        margin: auto;
+    }
 }
